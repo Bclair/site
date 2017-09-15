@@ -116,6 +116,9 @@ p {
     background-size: 100%;
     background-repeat: no-repeat;
 }
+.toppy {
+    display: inline-block;
+}
 }
     
 
