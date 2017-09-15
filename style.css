@@ -11,6 +11,20 @@ html {
 body {
    margin: 0;
    
+   font-family: 'Raleway', sans-serif;
+   display: flex;
+   height:100vh;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   
+   background-image: url("background1.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   
+   
 }
 
 
@@ -23,12 +37,55 @@ body {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    
+    /*
     background-image: url("background1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    */
 }
+
+.topbox{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    font-size: 3.5vh;
+    width: 10%;
+    height: 100%;
+    position: absolute;
+    margin: 0;
+    
+    padding:30.5%;
+    
+}
+
+.toppy{
+    display: flex;
+    float: left;
+    width: 100vw;
+    height: 100%;
+    
+}
+
+.polar1, .polar2, .polar3 {
+    padding-top: 10px;
+    padding-right: 100px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    color: #DF1194;
+    text-shadow: .5px .5px white;
+}
+
+a:visited {
+    color: white;
+    text-shadow: .5px .5px #DF1194;
+}
+
 
 
 .box {
@@ -44,4 +101,24 @@ p {
 }
 .box1 {font-size: 5vh;}
 .box2 {font-size: 3.5vh;}
-.box3{cursor:pointer;}
+.box3{
+    cursor:pointer;
+    
+}
+
+
+/*Media Queries */
+
+@media screen and (min-width:767px) {
+
+.wrapper  {
+    background-image: url("background1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+}
+    
+
+
+
+
