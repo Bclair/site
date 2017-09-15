@@ -10,10 +10,10 @@ html {
 
 body {
    margin: 0;
-   
+  
    font-family: 'Raleway', sans-serif;
    display: flex;
-   height:100vh;
+   height:100%;
    justify-content: center;
    flex-direction: column;
    text-align: center;
@@ -47,33 +47,33 @@ body {
 
 .topbox{
     font-family: 'Raleway', sans-serif;
-    display: flex;
-    font-size: 3.5vh;
-    width: 10%;
-    height: 100%;
-    position: absolute;
-    margin: 0;
     
-    padding:30.5%;
+    font-size: 3.5vh;
+    height: 30%;
+    width: 30%;
+    
+    
+    
     
 }
 
 .toppy{
     display: flex;
-    float: left;
+    justify-content: flex-start;
     width: 100vw;
-    height: 100%;
+    height: 20vh;
     
 }
 
 .polar1, .polar2, .polar3 {
     padding-top: 10px;
-    padding-right: 100px;
+    padding-right: 3vw;
     
 }
 
 a{
     text-decoration: none;
+    
 }
 
 a:hover {
