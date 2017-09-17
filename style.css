@@ -37,33 +37,11 @@ body {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    /*
-    background-image: url("background1.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    */
-}
+   }
 
-.topbox{
-    font-family: 'Raleway', sans-serif;
-    
-    font-size: 3.5vh;
-    height: 32%;
-    width: 32%;
-    
-    
-    
-    
-}
 
-.toppy{
-    display: flex;
-    justify-content: flex-start;
-    width: 100vw;
-    height: 20vh;
-    
-}
+
+
 
 .polar1, .polar2, .polar3 {
     padding-top: 10px;
@@ -73,7 +51,9 @@ body {
 
 a{
     text-decoration: none;
-    
+    color: white;
+    text-align: center;
+    font-size: 3.5vh    
 }
 
 a:hover {
