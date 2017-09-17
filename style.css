@@ -89,18 +89,15 @@ p {
 
 /*Media Queries */
 
-@media screen and (min-width:767px) {
+@media screen and (max-width:467px) {
 
 .wrapper  {
     background-image: url("background1.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
-.toppy {
-    display: inline-block;
 }
-}
-    
+
 
 
 
