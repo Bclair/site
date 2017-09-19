@@ -16,7 +16,7 @@ body {
   
    font-family: 'Raleway', sans-serif;
    display: flex;
-   height:100%;
+   height: 100%;;
    justify-content: center;
    flex-direction: column;
    text-align: center;
@@ -71,6 +71,11 @@ a:visited {
     text-shadow: .5px .5px #DF1194;
 }
 
+img:hover{
+    color: white;
+    background: white;
+    border-radius: 50%;
+}
 
 
 .box {
@@ -92,14 +97,24 @@ p {
 }
 
 
+
 /*Media Queries */
 
-@media screen and (max-width:767px) {
+@media screen and (min-width:767px) {
 
 .wrapper  {
     
     background-size: 100%;
     background-repeat: no-repeat;
+}
+
+.polar1, .polar2, .polar3 {
+    margin-top: 0;
+    
+}
+
+a {
+    font-size: 5vh;
 }
 }
 
