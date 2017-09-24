@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+:root {
+    --white: #FBF7F7;
+}
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+body {
+   margin: auto;
+  
+   font-family: 'Raleway', sans-serif;
+   display: flex;
+   height: 100%;;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   
+   background-image: url("background1.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   
+   
+}
+
+
+
+.wrapper {
+    
+    font-family: 'Raleway', sans-serif;
+    display:flex;
+    height:100vh;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+   }
+
+
+
+
+
+.polar1, .polar2, .polar3 {
+    padding-top: 10px;
+    
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 3.5vh;    
+    
+}
+
+a:hover {
+    color: #DF1194;
+    text-shadow: .5px .5px white;
+}
+
+a:visited {
+    color: white;
+    text-shadow: .5px .5px #DF1194;
+}
+
+img:hover{
+    color: white;
+    background: white;
+    border-radius: 50%;
+}
+
+
+.box {
+      
+    text-align: center;
+    
+}
+
+p {
+    flex-direction: column;
+    padding: 0;
+    margin: auto;
+}
+.box1 {font-size: 5vh;}
+.box2 {font-size: 3.5vh;}
+.box3{
+    cursor:pointer;
+    
+}
+
+
+
+/*Media Queries */
+
+@media screen and (min-width:767px) {
+
+.wrapper  {
+    
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.polar1, .polar2, .polar3 {
+    margin-top: 0;
+    
+}
+
+a {
+    font-size: 5vh;
+}
+}
+
+
+
+
+
