@@ -21,7 +21,7 @@ body {
    flex-direction: column;
    text-align: center;
    
-   background-image: url("background2.jpg");
+   background-image: url("background1.jpg");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -79,7 +79,7 @@ img:hover{
 
 
 .box {
-      
+    margin: auto 0;
     text-align: center;
     
 }
